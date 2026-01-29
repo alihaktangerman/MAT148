@@ -7,7 +7,7 @@ vector<pair<int,int>> tables;
 int counter = 0;
 
 void solve() {
-    auto p1 = 0;
+    int p1 = 0;
     while (used[p1++] && p1!=6);
     if (p1 != 6) {
         for (auto p2 = p1+1; p2 != 6; p2++) {
