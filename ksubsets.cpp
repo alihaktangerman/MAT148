@@ -5,6 +5,7 @@ using namespace std;
 vector<bool> visited;
 int my_counter = 0;
 
+//DFS on j*k grid 
 void print_ksubsets(int &j, int &k){
     if(j != 0){
         visited.push_back(false);
